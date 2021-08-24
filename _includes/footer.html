@@ -1,0 +1,32 @@
+<footer class="uk-position-relative uk-text-muted uk-text-small uk-margin-top">
+            
+    <div class="uk-container uk-margin-large-top">
+        <div class="uk-grid-collapse uk-flex-center@s uk-margin-large-bottom" uk-grid>
+            <div class="uk-width-1-1@s">
+                <div class=
+                "uk-child-width-expand" uk-grid>
+            {% for item in site.data.footer %}
+            <div>
+                {% if item.title %}
+                    <h4>{{ item.title }}</h4>
+                {% endif %}
+                {% if item.href %}
+                    <a href="{{ item.href }}" class="uk-item-text">
+                {% endif %}
+                {% if item.icon %}
+                    <span uk-icon="icon: {{ item.icon }}"></span>
+                {% endif %}
+                {% if item.html %}
+                    {{ item.html }}
+                {% endif %}
+                {% if item.md %}
+                    {{ item.md | markdownify }}
+                {% endif %}
+                {% if item.href %}</a>{% endif %}
+            </div>
+            {% endfor %}
+            </div>
+        </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,49 @@
+<div class="uk-container uk-margin-bottom">
+    <div class="uk-position-relative uk-visible-toggle uk-light" 
+        tabindex="-1" uk-slideshow="animation: push; autoplay: true;">
+        <ul class="uk-slideshow-items">
+        {% for item in site.data.hero %}
+        <li> 
+            <img  src="assets/heroes/{{item.image}}" alt="" uk-cover>
+            <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                <h2 class="uk-margin-remove">{{item.title}}</h2>
+            </div>
+        </li>
+        {% endfor %}
+        </ul>
+        <nav class="uk-navbar-container  uk-navbar-transparent uk-position-top" 
+    uk-navbar uk-sticky="top: 80vh;animation: uk-animation-slide-top;">
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li><a href="#"><img style="min-width: 200px;" src="assets/img/logo.png"></a></li><li><img src="assets/img/co2free.gif"></li>
+                </ul>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li><a href="#" class="uk-navbar-toggle uk-margin-right" uk-toggle="target: #offcanvas-reveal" uk-navbar-toggle-icon></a></li>
+                </ul>
+            </div>
+        </nav>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        </div>
+
+</div>
+<!-- menu -->
+<div id="offcanvas-reveal" uk-offcanvas="mode: slide; overlay: false; flip: 
+true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-nav uk-nav-default">
+            {% for item in site.data.quicklinks %}
+            <li><a class="uk-link-text"
+                    href="{{item.href}}"
+                    uk-scroll="offset: 50;"
+                    uk-toggle="target: #offcanvas-reveal;"
+                >{{ item.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+   </div>
+</div>

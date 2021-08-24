@@ -1,0 +1,5 @@
+# images go into assets/img/heroes
+- image: head.jpg
+  title: Lorem ipsum dolor sit amet
+- image: pig.jpg
+  title: Lorem ipsum dolor sit amet

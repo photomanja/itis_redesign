@@ -1,0 +1,37 @@
+---
+---
+// 1. Your custom variables and variable overwrites.
+$global-color: #000;
+$global-font-family: "Open Sans";
+$base-heading-font-family: "Open Sans";
+$base-heading-font-weight: 600;
+$primary-color: #0045b3;
+$base-heading-color: $primary-color;
+$global-link-color: $primary-color;
+$heading-medium-font-size-l: 3.5rem;
+$global-primary-background: $primary-color;
+$offcanvas-bar-background: #fff;
+$offcanvas-bar-color-mode: none;
+$navbar-background: rgb(240, 240, 240);
+$navbar-nav-item-font-family: "Open Sans";
+$navbar-nav-item-font-size: 1.2rem;
+$navbar-nav-item-text-transform: none;
+
+// 2. Import default variables and available mixins.
+@import "variables-theme.scss";
+
+$overlay-default-background: rgba($global-background, 0.7);
+
+
+@import "mixins-theme.scss";
+
+
+// 3. Your custom mixin overwrites.
+// @mixin hook-card() { color: #000; }
+
+// 4. Import UIkit.
+@import "uikit-theme.scss";
+
+// @import "hamburgers/hamburgers.scss";
+
+

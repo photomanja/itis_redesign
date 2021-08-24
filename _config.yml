@@ -1,0 +1,12 @@
+site_name: itis-tng
+sass:
+  style: compressed
+  sass_dir: _sass
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+collections:
+  news:
+    sort_by: date
+    sort_order: desc

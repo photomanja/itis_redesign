@@ -1,0 +1,28 @@
+---
+--- 
+@import "variables-theme.scss";
+
+footer a {
+    color: #fff;
+}
+
+footer {
+    background-color: #0045b3;
+    width: 100%;
+    float: left;
+}
+
+.sh-hyphen {
+    hyphens: auto;
+}
+
+.uk-navbar-container {
+    .uk-navbar-left img {
+        width: 6.5ex;
+    }
+}
+
+.uk-offcanvas-bar {
+    box-shadow: 0px 0px 20px 16px #0000000d;
+}
+

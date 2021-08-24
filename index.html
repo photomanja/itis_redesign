@@ -1,0 +1,31 @@
+---
+layout: plain
+---
+<div id="content" class="uk-container">
+    <div class="uk-grid-small" uk-grid uk-height-match="target: > div > .uk-card">
+        <div class="uk-width-1-4@m">
+            <div class="uk-card uk-card-body">
+                <ul class="uk-list">
+                {% for item in site.data.quicklinks %}
+                    <li><a class="uk-link-text"
+                            href="{{item.href}}">{{ item.title }}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    
+    {% for item in site.news %}
+        <div class="uk-width-1-1 uk-width-{% if item.wide %}1-2{% else %}1-4{% endif %}@m">
+            <div class="uk-card uk-background-muted">
+                <div class="uk-card-media-top">
+                    <img src="assets/news/{{ item.slug }}.jpg" alt=""/>
+                </div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">{{ item.title }}</h3>
+                    <div>{{ item.content | markdownify }}</div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
