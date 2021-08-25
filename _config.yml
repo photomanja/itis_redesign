@@ -1,4 +1,4 @@
-site_name: itis-tng
+site_name: IT'IS TNG
 sass:
   style: compressed
   sass_dir: _sass
