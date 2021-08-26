@@ -1,5 +1,9 @@
 # images go into assets/img/heroes
-- image: head.jpg
+- image: slide01_AR_2015_cover.jpg
   title: Lorem ipsum dolor sit amet
-- image: pig.jpg
+- image: slide02_AR_2019_cover.jpg
+  title: Lorem ipsum dolor sit amet
+- image: slide03_AR_2020_cover.jpg
+  title: Lorem ipsum dolor sit amet
+- image: slide04_AR_2017_cover.jpg
   title: Lorem ipsum dolor sit amet
