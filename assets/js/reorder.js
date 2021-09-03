@@ -26,6 +26,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
             item = item.nextElementSibling;
         }
     };
-    reorder();
+    window.setTimeout(reorder,1);
     window.addEventListener('resize', reorder);
 });
