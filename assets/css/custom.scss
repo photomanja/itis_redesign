@@ -60,6 +60,28 @@ footer {
         .uk-card-media-top img {
             filter:brightness(1.05) saturate(1.05);
         }
-    
+    }
+    .uk-card-body {
+        padding: 100% 0 0 0;
+        position: relative;
+        overflow: hidden;
+        .z43-card-box {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            padding: 20px;
+        }
+        .z43-card-gradient {
+            position: absolute; 
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(0deg,
+             rgba(250,250,250,1) 10%,
+             rgba(250,250,250,0) 90%);
+        }
+    }
+    .z43-wide-card {
+        padding-top: 50%;
     }
 }

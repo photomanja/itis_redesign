@@ -26,15 +26,19 @@ layout: plain
             uk-width-{% if item.wide %}1-1{% else %}1-2{% endif %}@s
             uk-width-{% if item.wide %}2-3{% else %}1-3{% endif %}@m
             uk-width-{% if item.wide %}1-2{% else %}1-4{% endif %}@l
-            uk-width-{% if item.wide %}2-5{% else %}1-5{% endif %}@xl">
+            uk-width-{% if item.wide %}2-5{% else %}1-5{% endif %}@xl"
+        >
             <a href="#z43-news-item-modal-{{item.slug}}" class="uk-link-reset" uk-toggle>
             <div class="uk-card">
                 <div class="uk-card-media-top">
                     <img src="assets/news/{{ item.image }}" alt=""/>
                 </div>
-                <div class="uk-card-body">
+                <div class="uk-card-body{% if item.wide %} z43-wide-card{% endif %}">
+                    <div class="z43-card-box">
                     <h3 class="uk-card-title">{{ item.title }}</h3>
                     <div>{{ item.excerpt | markdownify }}</div>
+                    </div>
+                    <div class="z43-card-gradient"></div>
                 </div>
             </div></a>
             <div id="z43-news-item-modal-{{item.slug}}" class="uk-modal-full" uk-modal>
