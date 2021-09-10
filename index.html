@@ -39,6 +39,7 @@ layout: plain
                     <div>{{ item.excerpt | markdownify }}</div>
                     </div>
                     <div class="z43-card-gradient"></div>
+                    <div class="z43-card-date">{{ item.date | date: '%b %d, %Y' }}</div>
                 </div>
             </div></a>
             <div id="z43-news-item-modal-{{item.slug}}" class="uk-modal-full" uk-modal>
