@@ -44,6 +44,16 @@ footer {
     box-shadow: 0px 0px 20px 16px #0000000d;
 }
 
+.z43-nav-card {
+    .uk-nav-primary>li>a {
+        &.uk-active {
+            color: #c10077;
+        }
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #000;
+}}
+
 .z43-news-item > a > .uk-card {
     background-color: #fafafa;
     font-size: 15px;
@@ -73,6 +83,10 @@ footer {
             padding: 30px;
             line-height: 1.2;
         }
+        .uk-card-title,
+        .z43-card-body {
+            hyphens: auto;
+        }   
         .z43-card-gradient {
             position: absolute; 
             top: 0;

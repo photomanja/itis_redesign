@@ -1,5 +1,6 @@
 - title: News
-  href: /news
+  href: /
+  current: true
 - title: Research
   href: /research
 - title: About
