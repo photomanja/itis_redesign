@@ -46,11 +46,12 @@ footer {
 
 .z43-news-item > a > .uk-card {
     background-color: #fafafa;
+    font-size: 15px;
     transition: transform 0.3s ease;
     transform: scale(1);
     .uk-card-title {
-        font-size: 1.2rem;
-        font-weight: 600;
+        font-size: 1.1rem;
+        font-weight: 700;
         line-height: 1.3;
         margin-bottom: 0.5em;
     }
@@ -69,7 +70,8 @@ footer {
             position: absolute;
             top: 0;
             height: 100%;
-            padding: 20px;
+            padding: 30px;
+            line-height: 1.2;
         }
         .z43-card-gradient {
             position: absolute; 
@@ -77,13 +79,20 @@ footer {
             height: 100%;
             width: 100%;
             background: linear-gradient(0deg,
-             rgba(250,250,250,1) 10%,
-             rgba(250,250,250,0) 90%);
+             rgba(250,250,250,1) 20%,
+             rgba(250,250,250,0) 80%);
         }
         .z43-card-date {
             position: absolute;
-            bottom: 0;
-            padding: 20px;
+            bottom: 18px;
+            left: 30px;
+            font-size: 0.75rem;
+        }
+        .z43-color-tag {
+            color: #ffffff00;
+            line-height: 0.5;
+            padding-bottom: -3px;
+            overflow: hidden;
         }
     }
     .z43-wide-card {

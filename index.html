@@ -20,7 +20,7 @@ layout: plain
         </div>
     
     {% for item in site.news %}
-        
+        {% assign tag = site.data.tags[item.group] %}
         <div class="z43-news-item 
             uk-width-1-1
             uk-width-{% if item.wide %}1-1{% else %}1-2{% endif %}@s
@@ -39,7 +39,17 @@ layout: plain
                     <div>{{ item.excerpt | markdownify }}</div>
                     </div>
                     <div class="z43-card-gradient"></div>
-                    <div class="z43-card-date">{{ item.date | date: '%b %d, %Y' }}</div>
+                    <div class="z43-card-date">
+                        {{ item.date | date: '%B %d, %Y' }}<br/>
+                        in {{ tag.name }}
+                        <div class="z43-color-tag">
+                            in
+                            <span class="z43-color-bar" style="background-color: {{ tag.color}};">
+                                {{ tag.name }}
+                            </span>
+                        </div>
+                    </div>
+                    
                 </div>
             </div></a>
             <div id="z43-news-item-modal-{{item.slug}}" class="uk-modal-full" uk-modal>
