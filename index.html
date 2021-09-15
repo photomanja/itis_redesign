@@ -21,7 +21,7 @@ layout: plain
     
     {% for item in site.news %}
         {% assign tag = site.data.tags[item.group] %}
-        <div class="z43-news-item 
+        <div class="z43-news-item z43-{{item.slug}}
             uk-width-1-1
             uk-width-{% if item.wide %}1-1{% else %}1-2{% endif %}@s
             uk-width-{% if item.wide %}2-3{% else %}1-3{% endif %}@m

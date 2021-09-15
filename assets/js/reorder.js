@@ -1,12 +1,17 @@
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    
+    console.log("DOMContentLoaded");
     const targetNode = document.getElementById('z43-newslist');
+
+    const origNodeOrder = targetNode.querySelectorAll('.z43-news-item');
     const reorder = () => {
-        let item = targetNode.querySelector('.z43-news-item'); // Get the first item
+        origNodeOrder.forEach(node => {
+            targetNode.appendChild(node);
+        });
+        let item = targetNode.querySelector('.z43-news-item'); // first item
         let parentRect = targetNode.getBoundingClientRect();
         let lastTop;
-        let lastGap;
+        let lastGap = 0;
         while (item) {
             let itemRect = item.getBoundingClientRect();
             if (itemRect.top > lastTop
@@ -26,6 +31,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
             item = item.nextElementSibling;
         }
     };
-    window.setTimeout(reorder,1);
-    window.addEventListener('resize', reorder);
+    let reorderTimeoutId = null;
+    const scheduleReorder = () => {
+        if (reorderTimeoutId) {
+            clearTimeout(reorderTimeoutId);
+        }
+        reorderTimeoutId = setTimeout(reorder, 200);
+        reorder();
+    };
+    scheduleReorder();
+    window.addEventListener('resize', scheduleReorder);
 });
