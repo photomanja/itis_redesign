@@ -4,7 +4,7 @@ title: "Transverse Confinement of Electron Beams in a 2D Optical Lattice for Com
 short_title: "Transverse Confinement"
 prime_author: Arya Fallahi
 authors: Arya Fallahi, Niels Kuster, and Lukas Novotny, New Journal of Physics, 23 August 2021, Volume 23, Article number: 083033, online 04 August 2021
-doi: 10.1002/bem.22362
+doi: 10.1088/1361-6560/ac212d
 group: pub
 image: 20_news_item_pic.jpg
 wide: false
