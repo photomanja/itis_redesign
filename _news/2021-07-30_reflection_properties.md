@@ -1,6 +1,6 @@
 ---
 date: 2021-07-30
-title: "Reflection Properties of the Human Skin From 40 to 110 GHz: A Confirmation Study"
+title: Reflection Properties of the Human Skin From 40 to 110 GHz: A Confirmation Study
 short_title: Reflection Properties
 prime_author: Andreas Christ
 authors: |
