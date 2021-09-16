@@ -1,7 +1,7 @@
 ---
 date: 2021-06-10
-title: “Radiofrequency-Induced Heating of Broken and Abandoned Implant Leads During Magnetic Resonance Examinations”
-short_title: “Radiofrequency-Induced Heating”
+title: "Radiofrequency-Induced Heating of Broken and Abandoned Implant Leads During Magnetic Resonance Examinations"
+short_title: "Radiofrequency-Induced Heating"
 prime_author: Aiping Yao
 authors: Aiping Yao, Tolga Goren, Theodoros Samaras, Niels Kuster, and Wolfgang Kainz, Magnetic Resonance in Medicine, October 2021, Volume 86, Issue 4, Pages 2156–2164, online 03 June 2021
 doi: 10.1002/mrm.28836
