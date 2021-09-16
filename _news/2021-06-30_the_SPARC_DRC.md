@@ -1,10 +1,9 @@
 ---
 date: 2021-06-30
-title: The SPARC DRC: Building a Resource for the Autonomic Nervous System Community
-short_title: The SPARC DRC
+title: "The SPARC DRC: Building a Resource for the Autonomic Nervous System Community"
+short_title: "The SPARC DRC"
 prime_author: Mahyar Osanlouy
-authors: |
-	Mahyar Osanlouy, Anita Bandrowski, Bernard De Bono, David Brooks, Antonino M. Cassarà, Richard Christie, Nazanin Ebrahimi, Tom Gillespie, Jeffrey S. Grethe, Leonardo A. Guercio, Maci Heal, Mabelle Lin, Niels Kuster, Maryann E. Martone, Esra Neufeld, David Phillip Nickerson, Elias G. Soltani, Susan J. Tappan, Joost B. Wagenaar, Katie Zhuang, and Peter Hunter, Frontiers in Physiology 2021, Volume 12, 929, online 24 June 2021
+authors: Mahyar Osanlouy, Anita Bandrowski, Bernard De Bono, David Brooks, Antonino M. Cassarà, Richard Christie, Nazanin Ebrahimi, Tom Gillespie, Jeffrey S. Grethe, Leonardo A. Guercio, Maci Heal, Mabelle Lin, Niels Kuster, Maryann E. Martone, Esra Neufeld, David Phillip Nickerson, Elias G. Soltani, Susan J. Tappan, Joost B. Wagenaar, Katie Zhuang, and Peter Hunter, Frontiers in Physiology 2021, Volume 12, 929, online 24 June 2021
 https://doi.org/10.3389/fphys.2021.693735
 group: pub
 image: 18_news_item_pic.jpg
