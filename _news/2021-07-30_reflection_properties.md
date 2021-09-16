@@ -1,10 +1,9 @@
 ---
 date: 2021-07-30
-title: Reflection Properties of the Human Skin From 40 to 110 GHz: A Confirmation Study
-short_title: Reflection Properties
+title: "Reflection Properties of the Human Skin From 40 to 110 GHz: A Confirmation Study"
+short_title: "Reflection Properties"
 prime_author: Andreas Christ
-authors: |
-   Andreas Christ, Adrian Aeschbacher, Fereshteh Rouholahnejad, Theodoros Samaras, Bernadetta Tarigan, and Niels Kuster, Bioelectromagnetics 2021, Volume 42, online 21 July 2021
+authors: Andreas Christ, Adrian Aeschbacher, Fereshteh Rouholahnejad, Theodoros Samaras, Bernadetta Tarigan, and Niels Kuster, Bioelectromagnetics 2021, Volume 42, online 21 July 2021
 doi: 10.1002/bem.22362
 group: pub
 image: 19_news_item_pic.jpg
