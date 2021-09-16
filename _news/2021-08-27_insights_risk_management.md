@@ -1,7 +1,7 @@
 ---
 date: 2021-08-27
-title: Induced Radiofrequency Fields in Patients Undergoing MR Examinations: Insights for Risk Assessment
-short_title: Insights for Risk Assessment
+title: "Induced Radiofrequency Fields in Patients Undergoing MR Examinations: Insights for Risk Assessment"
+short_title: "Insights for Risk Assessment"
 prime_author: Aiping Yao
 authors: |
    Aiping Yao, Manuel Murbach, Tolga Goren, Earl Zastrow, Wolfgang Kainz, and Niels Kuster, Physics in Medicine and Biology 2021, online 26 August 2021
