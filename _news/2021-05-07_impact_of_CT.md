@@ -1,7 +1,7 @@
---
+---
 date: 2021-05-07
 title: "The Impact of CT Image Parameters and Skull Heterogeneity Modeling on the Accuracy of Transcranial Focused Ultrasound Simulations"
-short_title: “The Impact of CT Image Parameters”
+short_title: "The Impact of CT Image Parameters"
 prime_author: Hazael Montanaro
 authors: Hazael Montanaro, Cristina Pasquinelli, Hyunjoo J. Lee, Hyunggug Kim, Hartwig R. Siebner, Niels Kuster, Axel Thielscher and Esra Neufeld, Journal of Neural Engineering 2021, Volume 18, Issue 4, Article number 046041, online 04 May 2021
 doi: 10.1088/1741-2552/abf68d
