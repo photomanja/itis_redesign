@@ -1,7 +1,7 @@
 ---
 date: 2021-02-01
-title: “Restoration of Breathing after Opioid Overdose and Spinal Cord Injury Using Temporal Interference Stimulation”
-short_title: “Temporal Interference Stimulation”
+title: "Restoration of Breathing after Opioid Overdose and Spinal Cord Injury Using Temporal Interference Stimulation"
+short_title: "Temporal Interference Stimulation"
 prime_author: Michael D. Sunshine
 authors: Michael D. Sunshine, Antonino M. Cassarà, Esra Neufeld, Nir Grossman, Thomas H. Mareci, Kevin J. Otto, Edward S. Boyden, and David D. Fuller, Communications Biology 2021, Volume 4, Article number 107, online 25 January 2021
 doi: 10.1002/bem.22362
