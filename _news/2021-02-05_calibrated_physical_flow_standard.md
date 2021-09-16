@@ -1,7 +1,7 @@
 ---
 date: 2021-02-05
-title: “A Calibrated Physical Flow Standard for Medical Perfusion Imaging”
-short_title: “Calibrated Physical Flow Standard”
+title: "A Calibrated Physical Flow Standard for Medical Perfusion Imaging"
+short_title: "Calibrated Physical Flow Standard"
 prime_author: Gertjan Kok
 authors: Gertjan Kok, Nikola Pelevic, Amedeo Chiribiri, Xenios Milidonis, Muhummad Nazir, Myles Capstick, Sita Drost, Christian Poelma, Tobias Schaeffter, Flow Measurement and Instrumentation, April 2021, Volume 78, Article number 101907, online 02 February 2021
 doi: h10.1016/j.flowmeasinst.2021.101907
