@@ -1,5 +1,5 @@
 ---
-date: 2021-05-07
+date: 2021-03-24
 title: "Experimental and Numerical Optimization Modelling to Reduce Radiofrequency-Induced Risks of Magnetic Resonance Examinations on Leaded Implants"
 short_title: “Optimization Modelling to Reduce Risks”
 prime_author: Juan Córcoles
