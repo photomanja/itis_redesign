@@ -1,7 +1,7 @@
 ---
 date: 2021-09-06
 title: "IT’IS Receives o2S2PARC Year 5 Award"
-short_title: o2S2PARC Award
+short_title: "o2S2PARC Award"
 prime_author: 
 authors: 
 group: pub
