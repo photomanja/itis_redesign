@@ -1,7 +1,7 @@
 ---
 date: 2021-06-23
 title: "Compliance Assessment of the Epithelial or Absorbed Power Density Below 10 GHz Using SAR Measurement Systems"
-short_title: "Compliance Assessment”
+short_title: "Compliance Assessment"
 prime_author: Theodoros Samaras
 authors: Theodoros Samaras, Andreas Christ, and Niels Kuster, Bioelectromagnetics, September 2021, Volume 42, Issue 6, Pages 484–490, online 15 June 2021
 doi: 10.1088/1361-6560/ac212d
