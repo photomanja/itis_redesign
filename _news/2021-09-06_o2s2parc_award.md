@@ -6,7 +6,7 @@ prime_author:
 authors: 
 group: pub
 image: 22_news_item_pic_wide.jpg
-wide: false
+wide: true
 ---
 Four years have passed since we began the exciting endeavor of establishing an online framework for the SPARC community and beyond. In year 5, the IT’IS team will build on the many functionalities already established with the main focus on strengthening and polishing the platform for public release, a framework for establishing control strategies for electroceuticals, and infrastructure to enable users to create and share their own simulators and modules.
 
