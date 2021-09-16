@@ -1,10 +1,9 @@
 ---
 date: 2021-08-01
-title: Transverse Confinement of Electron Beams in a 2D Optical Lattice for Compact Coherent X-Ray Sources
-short_title: Transverse Confinement
+title: "Transverse Confinement of Electron Beams in a 2D Optical Lattice for Compact Coherent X-Ray Sources"
+short_title: "Transverse Confinement"
 prime_author: Arya Fallahi
-authors: |
-   Arya Fallahi, Niels Kuster, and Lukas Novotny, New Journal of Physics, 23 August 2021, Volume 23, Article number: 083033, online 04 August 2021
+authors: Arya Fallahi, Niels Kuster, and Lukas Novotny, New Journal of Physics, 23 August 2021, Volume 23, Article number: 083033, online 04 August 2021
 https://doi.org/10.1088/1367-2630/ac1a99
 group: pub
 image: 20_news_item_pic.jpg
