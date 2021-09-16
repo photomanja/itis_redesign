@@ -4,7 +4,7 @@ title: "Compliance Assessment of the Epithelial or Absorbed Power Density Below 
 short_title: "Compliance Assessment”
 prime_author: Theodoros Samaras
 authors: Theodoros Samaras, Andreas Christ, and Niels Kuster, Bioelectromagnetics, September 2021, Volume 42, Issue 6, Pages 484–490, online 15 June 2021
-doi: 10.1002/bem.22362
+doi: 10.1088/1361-6560/ac212d
 group: pub
 image: 17_news_item_pic.jpg
 wide: false
