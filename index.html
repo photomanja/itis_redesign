@@ -18,8 +18,9 @@ layout: plain
                 </ul>
             </div>
         </div>
-    
-    {% for item in site.news %}
+
+    {% assign sorted_news = site.news | reverse %}    
+    {% for item in sorted_news %}
         {% assign tag = site.data.tags[item.group] %}
         <div class="z43-news-item z43-{{item.slug}}
             uk-width-1-1
