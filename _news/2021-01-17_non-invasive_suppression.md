@@ -3,7 +3,7 @@ date: 2021-01-17
 title: "Non-Invasive Suppression of Essential Tremor Via Phase-Locked Disruption of its Temporal Coherence"
 short_title: "Non-Invasive Suppression"
 prime_author: Sebastian R. Schreglmann
-authors: Sebastian R. Schreglmann, David Wang, Robert L. Peach, Junheng Li, Xu Zhang, Anna Latorre, Edward Rhodes, Emanuele Panella, Antonino M. Cassara, Edward S. Boyden, Mauricio Barahona, Sabato Santaniello, John Rothwell, Kailash P. Bhatia, and Nir Grossman, Nature Communications, January 2021, Volume 12, Article number: 363, online 13 January 2021
+authors: "Sebastian R. Schreglmann, David Wang, Robert L. Peach, Junheng Li, Xu Zhang, Anna Latorre, Edward Rhodes, Emanuele Panella, Antonino M. Cassara, Edward S. Boyden, Mauricio Barahona, Sabato Santaniello, John Rothwell, Kailash P. Bhatia, and Nir Grossman, Nature Communications, January 2021, Volume 12, Article number: 363, online 13 January 2021"
 doi: 10.1038/s41467-020-20581-7
 group: pub
 image: 02_news_item_pic.jpg

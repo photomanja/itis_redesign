@@ -3,7 +3,7 @@ date: 2021-04-30
 title: "Computational and Phantom-Based Feasibility Study of 3D dcNCI with Ultra-Low Field MRI"
 short_title: "Feasibility Study"
 prime_author: Nora Höfner
-authors: Nora Höfner, Jan-Hendrik Storm, Peter Hömmen, Antonino M. Cassarà, and Rainer Körber, Frontiers in Physics 2021, Volume 9, Article number: 647376, online 26 April 2021
+authors: "Nora Höfner, Jan-Hendrik Storm, Peter Hömmen, Antonino M. Cassarà, and Rainer Körber, Frontiers in Physics 2021, Volume 9, Article number: 647376, online 26 April 2021"
 doi: 10.3389/fphy.2021.647376
 group: pub
 image: 12_news_item_pic.jpg
