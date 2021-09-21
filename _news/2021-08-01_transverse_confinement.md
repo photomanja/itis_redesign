@@ -20,6 +20,6 @@ The scientific and technical impact of the study can be summarized as:
 + A potential solution towards overcoming obstacles to the development of FELs based on optical undulators is presented, whereby the scattering is performed inside an optical cavity
 + A pathway to increasing the efficiency of ICS sources by confining the electrons to the nodes of an optical cavity is introduced
 
-[Access article online]
+[Access article online](1)
 
 *Subscribe to our Newsletter*
