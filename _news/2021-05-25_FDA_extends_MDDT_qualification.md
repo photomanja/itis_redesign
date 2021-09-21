@@ -22,8 +22,6 @@ IMAnalytics V3.0 may be used together with MRIxViP V1.0, and likewise IMAnalytic
 
 Finally, we are happy to have another important announcement for the users of our experimental tools as we have created MRIxLAB database for easy, fast, reliable and error-proof validation of the transfer functions. It integrates with ZMT's Test Field Diversity system (TFD System) and IMAnalytics Suite.
 
-We are very proud about these latest successes and are happy to answer any questions you may have. The updated Summary of Evidence and Basis for Qualification (SEBQ) report is available here. For more information, please contact us at customized@itis.swiss.
-
-[Access article online]
+We are very proud about these latest successes and are happy to answer any questions you may have. The updated Summary of Evidence and Basis for Qualification (SEBQ) report is available here. For more information, please contact us at [customized@itis.swiss](mailto:customized@itis.swiss)
 
 *Subscribe to our Newsletter*
