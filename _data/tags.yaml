@@ -1,7 +1,15 @@
 pub:
   name: Publications
-  color: "#ff33bf"
+  color: "#ff0404"
 vpop:
   name: Virtual Population
-  color: "#0023bf"
-  
+  color: "#04c1ff"
+ar:
+  name: Annual Report
+  color: "#ff33bf"  
+newsq:
+  name: Newsquarter
+  color: "#7252fb"
+events:
+  name: Events
+  color: "#52a5fb"
