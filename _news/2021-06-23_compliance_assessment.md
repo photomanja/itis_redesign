@@ -18,4 +18,6 @@ The scientific and technical impact of the study can be summarized as:
 + Rapid and reliable methods for assessment of new dosimetric quantities introduced by the latest exposure guidelines/standards are proposed
 + Measurement protocols for exposure compliance have been expanded to the millimeter wave frequency range
 
-ACCESS ARTICLE ONLINE
+<table><tr><td>Access article online</td></tr></table>
+
+*Subscribe to our Newsletter*
