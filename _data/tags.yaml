@@ -3,7 +3,7 @@ pub:
   color: "#ff0404"
 vpop:
   name: Virtual Population
-  color: "#04c1ff"
+  color: "#00f6ff"
 ar:
   name: Annual Report
   color: "#ff33bf"  
