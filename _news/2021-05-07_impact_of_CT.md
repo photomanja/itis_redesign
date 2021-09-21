@@ -15,9 +15,11 @@ Low-intensity transcranial ultrasound stimulation (TUS) is a promising non-invas
 
 The scientific and technical impact of the study can be summarized as:
 
-    The study demonstrates the necessity of personalizing TUS simulations using CT-images of the skull heterogeneity. In particular, it shows that without proper consideration of the structured variability of speed-of-sound and attenuation, neither the magnitude nor the shape of the transmitted beam can be reliably estimated
-    The results reveal that particular care is needed when translating a modeling approach from one clinical site to another, as changing imaging conditions require recalibration of the CT-to-properties mapping. Standardization should be advanced
-    This work confirms that — as a consequence of the spatial variability of the skull — precise positioning of the transducer is necessary for the controlled application of therapeutic focused ultrasound
-    When properly calibrated, computational modeling of transcranial focused ultrasound can be a reliable and valuable tool for the prediction, planning, and optimization of transcranial focused ultrasound for a wide range of therapeutic applications, such as reversible blood-brain barrier-opening, stereotactic lesioning, cancer therapy, non-invasive deep brain stimulation
++ The study demonstrates the necessity of personalizing TUS simulations using CT-images of the skull heterogeneity. In particular, it shows that without proper consideration of the structured variability of speed-of-sound and attenuation, neither the magnitude nor the shape of the transmitted beam can be reliably estimated
++ The results reveal that particular care is needed when translating a modeling approach from one clinical site to another, as changing imaging conditions require recalibration of the CT-to-properties mapping. Standardization should be advanced
++ This work confirms that — as a consequence of the spatial variability of the skull — precise positioning of the transducer is necessary for the controlled application of therapeutic focused ultrasound
++ When properly calibrated, computational modeling of transcranial focused ultrasound can be a reliable and valuable tool for the prediction, planning, and optimization of transcranial focused ultrasound for a wide range of therapeutic applications, such as reversible blood-brain barrier-opening, stereotactic lesioning, cancer therapy, non-invasive deep brain stimulation
 
-ACCESS ARTICLE ONLINE
+[Access article online]
+
+*Subscribe to our Newsletter*
