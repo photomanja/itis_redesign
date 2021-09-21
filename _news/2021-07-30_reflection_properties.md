@@ -15,9 +15,9 @@ In several recent theoretical dosimetric studies conducted at frequencies above 
 
 The scientific and technical impact of the study can be summarized as:
 
-    The theoretically predicted reflection characteristics of the skin at mm-wave frequencies were confirmed experimentally
-    Increased absorption of radiofrequency (RF) energy at mm-wave frequencies, due to matching effects, was observed for regions with thicker SCL, such as the palms
-    The thin SCL of other body regions (but not including the soles of the feet) do not exhibit increased absorption
-    The phantom materials proposed for the palms and the rest of the body reproduce the increase in RF energy absorption with good accuracy over the specified frequency range
++ The theoretically predicted reflection characteristics of the skin at mm-wave frequencies were confirmed experimentally
++ Increased absorption of radiofrequency (RF) energy at mm-wave frequencies, due to matching effects, was observed for regions with thicker SCL, such as the palms
++ The thin SCL of other body regions (but not including the soles of the feet) do not exhibit increased absorption
++ The phantom materials proposed for the palms and the rest of the body reproduce the increase in RF energy absorption with good accuracy over the specified frequency range
 
 ACCESS ARTICLE ONLINE
