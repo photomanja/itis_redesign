@@ -21,3 +21,5 @@ The scientific and technical impact of the study can be summarized as:
 + A pathway to increasing the efficiency of ICS sources by confining the electrons to the nodes of an optical cavity is introduced
 
 <table><tr><td>Access article online</td></tr></table>
+
+*Subscribe to our Newsletter*
