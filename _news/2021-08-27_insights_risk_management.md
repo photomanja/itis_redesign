@@ -21,3 +21,5 @@ The scientific and technical impact of the study can be summarized as:
 + The significance of the ASTM F2182-19e2 standard, requiring that the relationship between ASTM test conditions and in vivo Etan be established, is demonstrated through a comparison of worst-case E-fields numerically determined in ViP models to the results found in the ASTM phantom.
 
 <table><tr><td>Access article online</td></tr></table>
+
+*Subscribe to our Newsletter*
