@@ -15,8 +15,10 @@ Convex formulations can be used to reduce the local speciﬁc absorption rate (S
 
 The scientific and technical impact of the study can be summarized as:
 
-    RF-induced deposited power by elongated implants during MR examination can be substantially reduced by modifying exposure conditions through RF-shimming while maintaining good magnetic field homogeneity with a hybrid numerical-experimental methodology
-    The novel approach combines the measured transfer function of the implant with the computationally determined fields induced by the MR coil, and applies numerical optimization to yield the desired exposure configurations and determine safe and risky scenarios, thus paving the way for future incorporation into MR technology, e.g. performing quasi real-time optimization for multi-transmit scanners
-    The methodology was experimentally validated showing that the measurement of the absorbed power at the electrode of the implant for the considered scenarios agreed to <± 0.7 dB with the numerically predicted values (well within the combined confidence interval)
++ RF-induced deposited power by elongated implants during MR examination can be substantially reduced by modifying exposure conditions through RF-shimming while maintaining good magnetic field homogeneity with a hybrid numerical-experimental methodology
++ The novel approach combines the measured transfer function of the implant with the computationally determined fields induced by the MR coil, and applies numerical optimization to yield the desired exposure configurations and determine safe and risky scenarios, thus paving the way for future incorporation into MR technology, e.g. performing quasi real-time optimization for multi-transmit scanners
++ The methodology was experimentally validated showing that the measurement of the absorbed power at the electrode of the implant for the considered scenarios agreed to <± 0.7 dB with the numerically predicted values (well within the combined confidence interval)
 
-ACCESS ARTICLE ONLINE
+[Access article online](https://www.sciencedirect.com/science/article/pii/S0307904X21001232?via%3Dihub)
+
+*Subscribe to our Newsletter*
