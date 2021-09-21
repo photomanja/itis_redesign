@@ -15,7 +15,7 @@ Compact coherent x-ray sources have been the focus of extensive research efforts
 
 The scientific and technical impact of the study can be summarized as:
 
-    A new paradigm for implementation of a compact coherent x-ray source is presented
-    The main obstacle to the implementation of FELs with optical undulators has been explored and found to be the Coulomb repulsion between particles
-    A potential solution towards overcoming obstacles to the development of FELs based on optical undulators is presented, whereby the scattering is performed inside an optical cavity
-    A pathway to increasing the efficiency of ICS sources by confining the electrons to the nodes of an optical cavity is introduced
++ A new paradigm for implementation of a compact coherent x-ray source is presented
++ The main obstacle to the implementation of FELs with optical undulators has been explored and found to be the Coulomb repulsion between particles
++ A potential solution towards overcoming obstacles to the development of FELs based on optical undulators is presented, whereby the scattering is performed inside an optical cavity
++ A pathway to increasing the efficiency of ICS sources by confining the electrons to the nodes of an optical cavity is introduced
