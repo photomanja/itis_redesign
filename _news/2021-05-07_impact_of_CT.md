@@ -20,6 +20,6 @@ The scientific and technical impact of the study can be summarized as:
 + This work confirms that — as a consequence of the spatial variability of the skull — precise positioning of the transducer is necessary for the controlled application of therapeutic focused ultrasound
 + When properly calibrated, computational modeling of transcranial focused ultrasound can be a reliable and valuable tool for the prediction, planning, and optimization of transcranial focused ultrasound for a wide range of therapeutic applications, such as reversible blood-brain barrier-opening, stereotactic lesioning, cancer therapy, non-invasive deep brain stimulation
 
-[Access article online](1)
+[Access article online](https://iopscience.iop.org/article/10.1088/1741-2552/abf68d)
 
 *Subscribe to our Newsletter*
