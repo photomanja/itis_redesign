@@ -8,7 +8,7 @@ group: pub
 image: 22_news_item_pic_wide.jpg
 wide: true
 ---
-### Four years have passed since we began the exciting endeavor of establishing an online framework for the SPARC community and beyond. In year 5, the IT’IS team will build on the many functionalities already established with the main focus on strengthening and polishing the platform for public release, a framework for establishing control strategies for electroceuticals, and infrastructure to enable users to create and share their own simulators and modules.
+#### Four years have passed since we began the exciting endeavor of establishing an online framework for the SPARC community and beyond. In year 5, the IT’IS team will build on the many functionalities already established with the main focus on strengthening and polishing the platform for public release, a framework for establishing control strategies for electroceuticals, and infrastructure to enable users to create and share their own simulators and modules.
 
 IT’IS has received its fifth year of funding for the development of the “Open Platform for Online Simulations for Stimulating Peripheral Activity to Relieve Conditions” (o2S2PARC) as part of the National Institutes of Health Common Fund’s “Stimulating Peripheral Activity to Relieve Conditions” SPARC program. IT’IS is part of the SPARC Data and Resource Center (DRC), a multi-disciplinary team that develops the SPARC data ecosystem. The aim of the program is to transform our understanding of nerve-organ interactions, identify neural targets, and accelerate the development of therapeutic devices capable of modulating electrical activity in the vagus and other nerves to treat disease by adjusting organ function.
 
