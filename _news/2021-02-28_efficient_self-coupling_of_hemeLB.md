@@ -15,8 +15,10 @@ Many scientific and medical researchers are working towards the creation of a vi
 
 The scientific and technical impact of the study can be summarized as:
 
-    HemeLB code is used to efficiently simulate blood flow in the entire human body
-    Simulations in the arterial and venous vascular trees of the Virtual Population model Yoon-sun demonstrate near linear scaling on hundreds of thousands of computer cores
-    A novel self-coupling strategy is used to communicate boundary conditions between different cores
++ HemeLB code is used to efficiently simulate blood flow in the entire human body
++ Simulations in the arterial and venous vascular trees of the Virtual Population model Yoon-sun demonstrate near linear scaling on hundreds of thousands of computer cores
++ A novel self-coupling strategy is used to communicate boundary conditions between different cores
 
-ACCESS ARTICLE ONLINE
+[Access article online](https://royalsocietypublishing.org/doi/10.1098/rsfs.2019.0119)
+
+*Subscribe to our Newsletter*
