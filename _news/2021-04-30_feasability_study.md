@@ -19,4 +19,6 @@ The scientific and technical impact of the study can be summarized as:
     These detection limits were used on the ULF-MRI hardware performance improvements (i.e., improvement of detection sensitivity, noise reduction) and to further optimize dcNCI pulse sequences
     Importantly, the pipeline will enable investigations into the mechanisms of dcNCI signal generation aimed at optimizing dcNCI pulse sequences taking into account (i) anthropomorphic virtual head phantoms functionalized with electrophysiological models of neuronal currents, and (ii) several experimental confounders such as ambient magnetic noise or inhomogeneities of MRI coils
 
-ACCESS ARTICLE ONLINE
+[Access article online](https://www.frontiersin.org/articles/10.3389/fphy.2021.647376/full)
+
+*Subscribe to our Newsletter*
