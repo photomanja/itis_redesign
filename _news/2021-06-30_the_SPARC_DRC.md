@@ -21,6 +21,6 @@ The scientific and technical impact of the study can be summarized as:
 + The extension, deepening, and systematization of the concept of using functionalized anatomical models and multi-scale organ scaffolds as integration centers for measurement data and computational models is explained, e.g., with descriptions of multi-species computational 3D scaffolds that enable cross-species comparisons
 + The SPARC approach to the FAIR principles of open, collaborative, and sustainable science is applicable not only to neuroscience but also to other research areas
 
-[Access article online](https://itis.swiss/)
+[Access article online](https://www.frontiersin.org/articles/10.3389/fphys.2021.693735/full)
 
 *Subscribe to our Newsletter*
