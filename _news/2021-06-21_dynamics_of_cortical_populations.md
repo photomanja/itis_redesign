@@ -21,6 +21,6 @@ The scientific and technical impact of the study can be summarized as:
 + In silico VSDI performed on a digital rodent neocortical slice exhibits biologically plausible spatiotemporal dynamics
 + An improved understanding of brain imaging modalities such as VSDI will augment our understanding of disease states and help to inform therapeutic interventions
 
-<table><tr><td>Access article online</td></tr></table>
+[Access article online]
 
 *Subscribe to our Newsletter*
