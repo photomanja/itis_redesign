@@ -15,11 +15,13 @@ The risks of radiofrequency (RF-)induced heating of active implantable medical d
 
 The scientific and technical impact of the study can be summarized as:
 
-    RF-induced heating of generic AIMD with damaged, broken or cut (abandoned) leads were numerically studied and experimentally validated
-    Potential enhancement of RF-induced heating of the damaged AIMD during MR examinations was found to reach up to 16-fold in realistic clinical exposures
-    Enhancement depends on location and type of the wire break, lead design, and clinical routing of the lead
-    The presence of nearby intact wires, or even nearby damaged wires, mitigated the worst-case enhancement factor
-    The potential and probability of each damage type should be considered when performing risk assessment for MR examinations or device labeling
-    Mitigating efforts such as impedance checks for lead damage, or CT scans to identify abandoned (capped or cut) leads, should be considered by the community
++ RF-induced heating of generic AIMD with damaged, broken or cut (abandoned) leads were numerically studied and experimentally validated
++ Potential enhancement of RF-induced heating of the damaged AIMD during MR examinations was found to reach up to 16-fold in realistic clinical exposures
++ Enhancement depends on location and type of the wire break, lead design, and clinical routing of the lead
++ The presence of nearby intact wires, or even nearby damaged wires, mitigated the worst-case enhancement factor
++ The potential and probability of each damage type should be considered when performing risk assessment for MR examinations or device labeling
++ Mitigating efforts such as impedance checks for lead damage, or CT scans to identify abandoned (capped or cut) leads, should be considered by the community
 
-ACCESS ARTICLE ONLINE
+[Access article online]
+
+*Subscribe to our Newsletter*
