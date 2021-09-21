@@ -20,4 +20,6 @@ The scientific and technical impact of the study can be summarized as:
 + The thin SCL of other body regions (but not including the soles of the feet) do not exhibit increased absorption
 + The phantom materials proposed for the palms and the rest of the body reproduce the increase in RF energy absorption with good accuracy over the specified frequency range
 
-ACCESS ARTICLE ONLINE
+<table><tr><td>Access article online</td></tr></table>
+
+*Subscribe to our Newsletter*
