@@ -22,6 +22,6 @@ The scientific and technical impact of the study can be summarized as:
 + The potential and probability of each damage type should be considered when performing risk assessment for MR examinations or device labeling
 + Mitigating efforts such as impedance checks for lead damage, or CT scans to identify abandoned (capped or cut) leads, should be considered by the community
 
-[Access article online]
+[Access article online](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28836)
 
 *Subscribe to our Newsletter*
