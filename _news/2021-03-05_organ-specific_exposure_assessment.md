@@ -15,9 +15,11 @@ In order to achieve an integrated radio-frequency electromagnetic fields (RF-EMF
 
 The scientific and technical impact of the study can be summarized as:
 
-    Development of the most comprehensive RF-EMF dose estimation tool to date
-    This study obtained realistic population exposure scenarios by using data on mobile phone use from an international survey in the model
-    Overall RF-EMF dose for the whole-body and whole-brain was found to be higher in younger age groups in comparison with older groups, with mobile phone calls on 2G networks found to be the main contributor to whole-brain RF-EMF dose
-    For whole-body dose, far-field exposure from telecommunications other RF-EMF sources plays a prominent role
++ Development of the most comprehensive RF-EMF dose estimation tool to date
++ This study obtained realistic population exposure scenarios by using data on mobile phone use from an international survey in the model
++ Overall RF-EMF dose for the whole-body and whole-brain was found to be higher in younger age groups in comparison with older groups, with mobile phone calls on 2G networks found to be the main contributor to whole-brain RF-EMF dose
++ For whole-body dose, far-field exposure from telecommunications other RF-EMF sources plays a prominent role
 
-ACCESS ARTICLE ONLINE
+[Access article online](https://www.nature.com/articles/s41370-021-00287-8)
+
+*Subscribe to our Newsletter*
