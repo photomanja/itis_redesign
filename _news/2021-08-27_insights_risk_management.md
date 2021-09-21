@@ -20,6 +20,6 @@ The scientific and technical impact of the study can be summarized as:
 + Maximum B1+rms exposure and the magnitude of Etan along representative splines plotted as a function of imaging landmark, either in circular polarizing (CP) mode or with shimming, in both ViP models in the normal operating mode indicate that such plots of maximum E-fields, B1+ fields, and typical Etan performed for small and large patients can help practitioners understand exposure scenarios for the purpose of risk assessment
 + The significance of the ASTM F2182-19e2 standard, requiring that the relationship between ASTM test conditions and in vivo Etan be established, is demonstrated through a comparison of worst-case E-fields numerically determined in ViP models to the results found in the ASTM phantom.
 
-[Access article online](https://itis.swiss/)
+[Access article online](https://iopscience.iop.org/article/10.1088/1361-6560/ac212d)
 
 *Subscribe to our Newsletter*
