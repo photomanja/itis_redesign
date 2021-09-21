@@ -16,9 +16,9 @@ Voltage-sensitive dye imaging (VSDI) is a powerful technique for interrogating m
 
 The scientific and technical impact of the study can be summarized as:
 
-    Computational modeling makes it possible to study how network-level brain phenomena emerge from many interactions among individual neurons
-    Simulations show that VSDI captures the ongoing dynamics of deep cortical layers as a result of arborizations in layer 2/3
-    In silico VSDI performed on a digital rodent neocortical slice exhibits biologically plausible spatiotemporal dynamics
-    An improved understanding of brain imaging modalities such as VSDI will augment our understanding of disease states and help to inform therapeutic interventions
++ Computational modeling makes it possible to study how network-level brain phenomena emerge from many interactions among individual neurons
++ Simulations show that VSDI captures the ongoing dynamics of deep cortical layers as a result of arborizations in layer 2/3
++ In silico VSDI performed on a digital rodent neocortical slice exhibits biologically plausible spatiotemporal dynamics
++ An improved understanding of brain imaging modalities such as VSDI will augment our understanding of disease states and help to inform therapeutic interventions
 
 ACCESS ARTICLE ONLINE
