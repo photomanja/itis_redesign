@@ -9,8 +9,6 @@ group: pub
 image: 12_news_item_pic.jpg
 wide: false
 ---
-#### Nora Höfner, Jan-Hendrik Storm, Peter Hömmen, Antonino M. Cassarà, and Rainer Körber, Frontiers in Physics 2021, Volume 9, Article number: 647376, online 26 April 2021; doi: 10.3389/fphy.2021.647376
-
 The possibility to directly and non-invasively localize neuronal activities in the human brain, as for instance by performing neuronal current imaging (NCI) via magnetic resonance imaging (MRI), would be a breakthrough in neuroscience. In order to assess the feasibility of 3-dimensional (3D) NCI, comprehensive computational and physical phantom experiments using low-noise ultra-low field (ULF) MRI technology were performed using two different source models within spherical phantoms. The source models, consisting of a single dipole and an extended dipole grid, were calibrated enabling the quantitative emulation of a long-lasting, approximatively constant (close to direct current (dc)) neuronal activity by the application of known current waveforms. The dcNCI experiments were also simulated by solving the Bloch equations using the calculated internal magnetic field distributions of the phantoms and idealized MRI fields. The simulations were then validated by physical phantom experiments using a moderate polarization field of 17 mT. A focal activity with an equivalent current dipole of about 150 nAm and a physiologically relevant depth of 35 mm could be resolved with an isotropic voxel size of 25 mm. The simulation tool enabled the optimization of the imaging parameters for sustained neuronal activities in order to predict maximum sensitivity.
 
 The scientific and technical impact of the study can be summarized as:

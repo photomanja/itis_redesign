@@ -54,6 +54,42 @@ footer {
     color: #000;
 }}
 
+
+.z43-news-modal {
+    .z43-nav {
+        top: 50%;
+        position: absolute;
+    }
+    .z43-left {
+        left: 0px;
+        @media (min-width: $breakpoint-medium) {
+            left: 50px;
+        }
+    }
+    .z43-right {
+        right: 10px;
+        @media (min-width: $breakpoint-medium) {
+            right: 50px;
+        }
+    }
+    .uk-modal-dialog {
+        min-height: 100vh;
+        overflow-x:auto;
+    }
+    .z43-authors {
+        font-weight: 700;
+    }
+    .z43-date {
+        margin-bottom: 20px;
+        .z43-color-tag {
+            color: #ffffff00;
+            line-height: 0.5;
+            padding-bottom: -3px;
+            overflow: hidden;
+        }
+    }
+}
+
 .z43-news-item > a > .uk-card {
     background-color: #fafafa;
     font-size: 15px;
@@ -86,7 +122,10 @@ footer {
         .uk-card-title,
         .z43-card-body {
             hyphens: auto;
-        }   
+            strong {
+                font-weight: inherit;
+            }
+        }
         .z43-card-gradient {
             position: absolute; 
             top: 0;
@@ -96,7 +135,7 @@ footer {
              rgba(250,250,250,1) 20%,
              rgba(250,250,250,0) 80%);
         }
-        .z43-card-date {
+        .z43-date {
             position: absolute;
             bottom: 18px;
             left: 30px;
