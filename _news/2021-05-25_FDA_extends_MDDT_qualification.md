@@ -9,7 +9,7 @@ group: pub
 image: 14_news_item_pic.jpg
 wide: false
 ---
-#### FDA Qualification of the ZMT & IT’IS MDDT toolset, IMAnalytics with MRIxViP1.5T/3.0T and BCLib, now also includes passive implants (ASTM F2182-19e2) and Region-of-Interest Field Extraction for ISO 10974 Tier 2
+##### FDA Qualification of the ZMT & IT’IS MDDT toolset, IMAnalytics with MRIxViP1.5T/3.0T and BCLib, now also includes passive implants (ASTM F2182-19e2) and Region-of-Interest Field Extraction for ISO 10974 Tier 2
 
 In December 2019, the U.S. Food and Drug Administration (FDA) approved ZMT Zurich MedTech AG's Sim4Life IMAnalytics Module, including the IT’IS Foundation field exposure libraries MRIxViP1.5T and MRIxViP3.0T and the BCLib body coil libraries. This joint effort between ZMT and IT'IS resulted in the first computational Medical Device Development Tool (MDDT) qualified by the FDA. It marked a key milestone as it greatly simplifies and accelerates the standardized procedures required for proving magnetic resonance (MR) safety of active implantable medical devices (AIMDs), such as pacemakers or neurostimulators.
 
