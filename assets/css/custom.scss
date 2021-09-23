@@ -25,7 +25,6 @@ footer a {
 }
 
 footer {
-    background-color: #0045b3;
     width: 100%;
     float: left;
 }
@@ -44,6 +43,23 @@ footer {
     box-shadow: 0px 0px 20px 16px #0000000d;
 }
 
+.z43-navbar {
+    z-index: 900;
+    position: relative;
+    .z43-logo-black {
+        display: none;
+    }
+    &.uk-active {
+        .z43-logo-white {
+            display: none;
+        }
+        .z43-logo-black {
+            display: initial;
+        }
+        background-color: #d8d8d888;
+    }
+    background-color: #00000033;
+}
 .z43-nav-card {
     .uk-nav-primary>li>a {
         &.uk-active {
@@ -54,6 +70,11 @@ footer {
     color: #000;
 }}
 
+.z43-hero-text {
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
 
 .z43-news-modal {
     .z43-nav {
