@@ -1,14 +1,16 @@
-<div class="uk-container-expand" uk-height-match="row: false; target: .z43-hero-height-match">
-    <div class="z43-hero-height-match uk-position-relative uk-margin-bottom">
+<div class="z43-hero uk-container-expand" >
+    
         {%- include navbar.html -%}
-        <div class="z43-hero-height-match uk-position-top uk-visible-toggle uk-light" 
-            tabindex="-1" uk-slideshow="animation: push; autoplay: true;ratio: 7:3">
+        <div class="uk-position-top uk-visible-toggle uk-light" 
+            tabindex="-1" uk-slideshow="animation: push; autoplay: true;ratio: false;">
             <ul class="uk-slideshow-items">
             {% for item in site.data.hero %}
                 <li> 
                     <img  src="assets/heroes/{{item.image}}" alt="" uk-cover >
                     <div class="uk-position-center uk-flex uk-flex-center uk-light">
-                        <h2 class="z43-hero-text uk-width-1-2 uk-text-center sh-hyphen uk-padding">{{item.title}}</h2>
+                        <h2 class="z43-hero-text uk-width-3-4 uk-width-1-2@s uk-text-center sh-hyphen uk-padding"
+                        style="{% if item.color %}color: {{item.fcolor}};{% endif %}{% if item.bg-color %}background-color: {{item.bg-color}};{% endif %}"
+                        >{{item.title}}</h2>
                     </div>
                 </li>
             {% endfor %}
@@ -17,6 +19,6 @@
             <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
             <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>    
         </div>
-    </div>
+    <!-- </div> -->
 </div>
 {%- include menu.html -%}

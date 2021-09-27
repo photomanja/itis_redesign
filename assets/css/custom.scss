@@ -27,17 +27,13 @@ footer a {
 footer {
     width: 100%;
     float: left;
+    background-color: #f8f8f8;
 }
 
 .sh-hyphen {
     hyphens: auto;
 }
 
-.uk-navbar-container {
-    .uk-navbar-left img {
-        width: 6.5ex;
-    }
-}
 
 .uk-offcanvas-bar {
     box-shadow: 0px 0px 20px 16px #0000000d;
@@ -46,6 +42,22 @@ footer {
 .z43-navbar {
     z-index: 900;
     position: relative;
+    .z43-logo {
+        width: 200px;
+        @media (max-width: $breakpoint-small) {                
+            width: 40vw;
+        }
+    }
+    .z43-logo-co2 {
+        padding-left: 10px;
+        padding-top: 20px;
+        width: 60px;
+        @media (max-width: $breakpoint-small) {                
+            padding-top: 30px;
+            width: 12vw;
+            padding-left: 3vw;
+        }
+    }
     .z43-logo-black {
         display: none;
     }
@@ -56,7 +68,13 @@ footer {
         .z43-logo-black {
             display: initial;
         }
-        background-color: #d8d8d888;
+        background-color: #fff;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #aaa;
+        .uk-navbar-toggle {
+            color: #000;
+        }
     }
     background-color: #00000033;
 }
@@ -70,10 +88,27 @@ footer {
     color: #000;
 }}
 
+.z43-hero {
+    position: relative;
+    .uk-slideshow-items,.uk-slideshow {
+        height: 100%;
+    }
+    height: 56vw;
+    margin-bottom: 6ex;
+    @media (max-width: $breakpoint-small) {
+        margin-bottom: 7vh;
+        height: 60vh;
+    }
+}
 .z43-hero-text {
-    backdrop-filter: blur(2px);
+    //backdrop-filter: blur(2px);
     background-color: rgba(0, 0, 0, 0.1);
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    font-size: 2.4vw;
+    @media (max-width: $breakpoint-small) {
+        font-size: 4vw;
+        margin-top: 13vh;
+    }
 }
 
 .z43-news-modal {
@@ -113,7 +148,10 @@ footer {
 
 .z43-news-item > a > .uk-card {
     background-color: #fafafa;
-    font-size: 15px;
+    font-size: 0.95rem;
+    @media (max-width: $breakpoint-small) {
+        font-size: 0.7rem;
+    }
     transition: transform 0.3s ease;
     transform: scale(1);
     .uk-card-title {
@@ -121,6 +159,10 @@ footer {
         font-weight: 700;
         line-height: 1.3;
         margin-bottom: 0.5em;
+        @media (max-width: $breakpoint-small) {
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
     }
     &:hover {
         transform: scale(1.008);
@@ -138,6 +180,9 @@ footer {
             top: 0;
             height: 100%;
             padding: 30px;
+            @media (max-width: $breakpoint-small) {
+                padding: 10px;
+            }
             line-height: 1.2;
         }
         .uk-card-title,
@@ -155,6 +200,11 @@ footer {
             background: linear-gradient(0deg,
              rgba(250,250,250,1) 20%,
              rgba(250,250,250,0) 80%);
+            @media (max-width: $breakpoint-small) {
+                background: linear-gradient(0deg,
+                rgba(250,250,250,1) 35%,
+                rgba(250,250,250,0) 100%);
+               } 
         }
         .z43-date {
             position: absolute;
@@ -162,15 +212,38 @@ footer {
             left: 30px;
             font-size: 0.75rem;
             color: #00000060;
+            @media (max-width: $breakpoint-small) {
+                bottom: 12px;
+                left: 10px;
+                line-height: 1.3;
+                font-size: 0.7rem;
+                color: #000000A0;
+            }
+            
         }
         .z43-color-tag {
             color: #ffffff00;
             line-height: 0.5;
             padding-bottom: -3px;
             overflow: hidden;
+            @media (max-width: $breakpoint-small) {
+                padding-bottom: -3px;
+            }
         }
     }
     .z43-wide-card {
         padding-top: 50%;
+        .uk-card-title {
+            font-size: 1.4rem;
+            @media (max-width: $breakpoint-small) {
+                font-size: 0.9rem;
+            }
+        }
+        .z43-card-body {
+            font-size: 1.1rem;
+            @media (max-width: $breakpoint-small) {
+                font-size: 0.8rem;
+            }
+        }
     }
 }
