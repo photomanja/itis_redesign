@@ -4,7 +4,7 @@ title: "IT’IS Receives o2S2PARC Year 5 Award"
 short_title: "o2S2PARC Award"
 prime_author: 
 authors: 
-group: pub
+group: awards
 image: 22_news_item_pic_wide.jpg
 wide: true
 ---
