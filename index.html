@@ -27,9 +27,9 @@ layout: plain
             uk-width-{% if item.wide %}1-2{% else %}1-4{% endif %}@l
             uk-width-{% if item.wide %}2-5{% else %}1-5{% endif %}@xl"
         >
-            <a href="#z43-news-modal-{{item.slug}}"
-               class="uk-link-reset"
-               uk-toggle>
+            <a href="#"
+               class="z43-news-toggle uk-link-reset"
+               data-news-item-idx="{{forloop.index}}">
             <div class="uk-card">
                 <div class="uk-card-media-top">
                     <img src="assets/news/{{ item.image }}" alt=""/>
@@ -58,35 +58,50 @@ layout: plain
     </div>
 </div>
 <!-- popups -->
-{% for item in sorted_news %}
-<div id="z43-news-modal-{{item.slug}}" class="z43-news-modal uk-modal-full" uk-modal>
-    <div class="uk-modal-dialog">
+
+<div id="z43-news-modal" class="z43-news-modal uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog uk-position-relative">
         <div class="uk-container uk-margin-bottom" >
-        {% include navbar-white.html %}
+            {% include navbar-white.html %}
         </div>
-        <div class="uk-container uk-container-xsmall">
-            <h2 class="uk-modal-title">{{item.title}}</h2>
-            <div class="z43-date">
-                {{ item.date | date: '%B %d, %Y' }}<br/>
-                in {{ tag.name }}
-                <div class="z43-color-tag">
-                    in
-                    <span class="z43-color-bar" style="background-color: {{ tag.color}};">
-                        {{ tag.name }}
-                    </span>
+        <div class="uk-position-top" uk-slideshow="animation: slide; autoplay: false; ratio: false;">
+            <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+            <ul class="uk-slideshow-items">
+        {% for item in sorted_news %}
+        <li class="uk-background-default">
+            <div class="z43-news-scroller uk-container-expanded">
+            <div class="z43-news-body uk-container uk-container-xsmall">
+                <h2 class="uk-modal-title">{{item.title}}</h2>
+                <div class="z43-date">
+                    {{ item.date | date: '%B %d, %Y' }}<br/>
+                    in {{ tag.name }}
+                    <div class="z43-color-tag">
+                        in
+                        <span class="z43-color-bar" 
+                            style="background-color: {{ tag.color}};">
+                            {{ tag.name }}
+                        </span>
+                    </div>
                 </div>
-            </div>
-            {% if item.authors %}
-            <div class="z43-authors">{{item.authors}}
-                {% if item.doi %}
-                <a href="https://doi.org/{{item.doi}}">doi:{{item.doi}}</a>.
+                {% if item.authors %}
+                <div class="z43-authors">{{item.authors}}
+                    {% if item.doi %}
+                    <a href="https://doi.org/{{item.doi}}">doi:{{item.doi}}</a>.
+                    {% endif %}
+                </div>
                 {% endif %}
+                {{item.content | markdownify }}
+            </div> 
             </div>
-            {% endif %}
-            {{item.content | markdownify }}
-        </div>  
+        </li>
+        {% endfor %}
+        </ul>
     </div>
-    {% assign next_idx = forloop.index %}
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+    </div>
+    <!-- {% assign next_idx = forloop.index %}
     {% assign next_item = sorted_news[next_idx] %}
     {% assign prev_idx = forloop.index | minus: 2 %}
     {% if prev_idx >= 0 %}
@@ -107,6 +122,21 @@ layout: plain
     uk-icon="icon: chevron-right; ratio: 2;"
     uk-toggle>
     </a>
-    {% endif %}
+    {% endif %} -->
 </div>
-{% endfor %}
+
+<script>
+document.addEventListener("DOMContentLoaded", event => {
+    let modal = document.querySelector("#z43-news-modal");
+    let news = document.querySelectorAll('.z43-news-toggle');
+    news.forEach(item => {
+        item.addEventListener('click', event => {
+            event.preventDefault();
+            let idx = item.dataset.newsItemIdx;
+            console.log(`show ${idx}`);
+            UIkit.slideshow("#z43-news-modal .uk-slideshow").show(idx-1);
+            UIkit.modal(modal).show();
+        }); 
+    });
+});
+</script>

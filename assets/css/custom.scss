@@ -112,6 +112,20 @@ footer {
 }
 
 .z43-news-modal {
+    .z43-news-scroller {
+        height: 100vh;
+        overflow-y: auto;
+    }
+    .z43-news-body {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+    .uk-slideshow-items {
+        height: 100vh;
+    }
+    .uk-navbar-container {
+        background-color: white;
+    }
     .z43-nav {
         top: 50%;
         position: absolute;
@@ -127,6 +141,12 @@ footer {
         @media (min-width: $breakpoint-medium) {
             right: 50px;
         }
+    }
+    .z43-logo {
+        width: 200px;
+    }
+    .z43-logo-co2 {
+        width: 50px;
     }
     .uk-modal-dialog {
         height: 100vh;
