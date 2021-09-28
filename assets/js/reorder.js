@@ -1,10 +1,9 @@
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    console.log("DOMContentLoaded");
     const targetNode = document.getElementById('z43-newslist');
-
     const origNodeOrder = targetNode.querySelectorAll('.z43-news-item');
     const reorder = () => {
+        // restore original order
         origNodeOrder.forEach(node => {
             targetNode.appendChild(node);
         });
@@ -14,8 +13,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         let lastGap = 0;
         while (item) {
             let itemRect = item.getBoundingClientRect();
-            if (itemRect.top > lastTop
+            if (lastTop !== undefined && itemRect.top > lastTop
                 && lastGap > 0){
+                console.log(`item ${itemRect.top} > lastTop ${lastTop} and ${lastGap} > 0`);
                 let iitem = item.nextElementSibling;
                 while (iitem) {
                     let iitemRect = iitem.getBoundingClientRect();
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         if (reorderTimeoutId) {
             clearTimeout(reorderTimeoutId);
         }
-        reorderTimeoutId = setTimeout(reorder, 200);
+        reorderTimeoutId = setTimeout(reorder, 500);
         reorder();
     };
     scheduleReorder();

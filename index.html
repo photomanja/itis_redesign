@@ -127,15 +127,14 @@ layout: plain
 
 <script>
 document.addEventListener("DOMContentLoaded", event => {
-    let modal = document.querySelector("#z43-news-modal");
-    let news = document.querySelectorAll('.z43-news-toggle');
-    news.forEach(item => {
+    let newsItems = document.querySelectorAll('.z43-news-toggle');
+    newsItems.forEach(item => {
+        let idx = item.dataset.newsItemIdx;
         item.addEventListener('click', event => {
-            event.preventDefault();
-            let idx = item.dataset.newsItemIdx;
             console.log(`show ${idx}`);
+            event.preventDefault();
             UIkit.slideshow("#z43-news-modal .uk-slideshow").show(idx-1);
-            UIkit.modal(modal).show();
+            UIkit.modal("#z43-news-modal").show();
         }); 
     });
 });
