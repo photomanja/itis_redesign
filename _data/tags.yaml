@@ -1,7 +1,7 @@
 pub:
   name: Publications
   color: "#ff0404"
-vpop:
+vip:
   name: Virtual Population
   color: "#00f6ff"
 ar:
@@ -13,3 +13,6 @@ newsq:
 events:
   name: Events
   color: "#52a5fb"
+awards:
+  name: Awards
+  color: "#d59804"
