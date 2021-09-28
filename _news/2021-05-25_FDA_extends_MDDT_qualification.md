@@ -5,7 +5,7 @@ short_title: "FDA Extends MDDT Qualification"
 prime_author: 
 authors: 
 doi: 
-group: pub
+group: vip
 image: 14_news_item_pic.jpg
 wide: false
 ---
