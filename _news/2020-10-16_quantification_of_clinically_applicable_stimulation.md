@@ -18,4 +18,6 @@ The scientific and technical impact of the study can be summarized as:
 + Evaluation of the differences between acute and chronic implanted electrodes was performed, including impact-assessment of scar tissue formation around implanted electrodes
 + Importantly, the validated computational models are applied to support the planning and interpretation of translational studies, in order to greatly facilitate (i) clinical trials, (ii) the optimization of neural interfaces, and (iii) safety-related investigations
 
+[Access article online](https://www.nature.com/articles/s42003-020-01299-0)
 
+*Subscribe to our Newsletter*
