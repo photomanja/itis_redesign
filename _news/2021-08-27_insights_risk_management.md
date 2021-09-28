@@ -1,5 +1,5 @@
 ---
-date: 2021-08-27
+date: 2021-09-27
 title: "Induced Radiofrequency Fields in Patients Undergoing MR Examinations: Insights for Risk Assessment"
 short_title: "Insights for Risk Assessment"
 prime_author: Aiping Yao
