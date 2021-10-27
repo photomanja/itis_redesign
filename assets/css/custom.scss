@@ -76,7 +76,6 @@ footer {
             color: #000;
         }
     }
-    background-color: #00000033;
 }
 .z43-nav-card {
     .uk-nav-primary>li>a {
@@ -93,10 +92,11 @@ footer {
     .uk-slideshow-items,.uk-slideshow {
         height: 100%;
     }
-    height: 56vw;
-    margin-bottom: 6ex;
+    height: 600px;
+    margin-bottom: 3ex;
     @media (max-width: $breakpoint-small) {
-        margin-bottom: 7vh;
+        padding-top: 10vh;
+        margin-bottom: 3ex;
         height: 60vh;
     }
 }
