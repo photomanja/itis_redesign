@@ -36,9 +36,10 @@ layout: plain
                 </div>
                 <div class="uk-card-body{% if item.wide %} z43-wide-card{% endif %}">
                     <div class="z43-card-box">
-                    <h3 class="uk-card-title">{{ item.title }}</h3>
-                    <div class="z43-card-body">
-                        {{ item.excerpt | markdownify }}</div>
+                        <h3 class="uk-card-title">{{ item.title }}</h3>
+                        <div class="z43-card-body">
+                            {{ item.excerpt | markdownify }}
+                        </div>
                     </div>
                     <div class="z43-card-gradient"></div>
                     <div class="z43-date">
