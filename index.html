@@ -69,6 +69,7 @@ layout: plain
             <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
             <ul class="uk-slideshow-items">
         {% for item in sorted_news %}
+        {% assign tag = site.data.tags[item.group] %}
         <li class="uk-background-default">
             <div class="z43-news-scroller uk-container-expanded">
             <div class="z43-news-body uk-container uk-container-xsmall">
@@ -102,28 +103,6 @@ layout: plain
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 
     </div>
-    <!-- {% assign next_idx = forloop.index %}
-    {% assign next_item = sorted_news[next_idx] %}
-    {% assign prev_idx = forloop.index | minus: 2 %}
-    {% if prev_idx >= 0 %}
-        {% assign prev_item = sorted_news[prev_idx] %}
-    {% else %}
-        {% assign prev_item = nil %}
-    {% endif %}
-    {% if prev_item %}
-    <a href="#z43-news-modal-{{prev_item.slug}}"
-    class="uk-icon z43-nav z43-left" 
-    uk-icon="icon: chevron-left; ratio: 2;"
-    uk-toggle>
-    </a>
-    {% endif %}
-    {% if next_item %}
-    <a href="#z43-news-modal-{{next_item.slug}}"
-    class="uk-icon z43-nav z43-right"
-    uk-icon="icon: chevron-right; ratio: 2;"
-    uk-toggle>
-    </a>
-    {% endif %} -->
 </div>
 
 <script>
