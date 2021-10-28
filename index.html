@@ -38,7 +38,7 @@ layout: plain
                     <div class="z43-card-box">
                         <h3 class="uk-card-title">{{ item.title }}</h3>
                         <div class="z43-card-body">
-                            {{ item.excerpt | markdownify }}
+                            {{ item.excerpt | markdownify | strip_html }}
                         </div>
                     </div>
                     <div class="z43-card-gradient"></div>
