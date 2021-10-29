@@ -46,22 +46,7 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 40px;
-    @media (max-width: $breakpoint-small) {
-        position: absolute;
-        margin-top: -60px;
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 0;
-        .z43-logo-white {
-            display: none;
-        }
-        .z43-logo-black {
-            display: initial;
-        }
-        .uk-navbar-toggle {
-            color: #000;
-        }
-    }
+    
 
     .z43-logo {
         width: 200px;
@@ -88,6 +73,22 @@ footer {
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-bottom-color: #aaa;
+        .uk-navbar-toggle {
+            color: #000;
+        }
+    }
+    @media (max-width: $breakpoint-small) {
+        position: absolute;
+        margin-top: -60px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        .z43-logo-white {
+            display: none;
+        }
+        .z43-logo-black {
+            display: initial;
+        }
         .uk-navbar-toggle {
             color: #000;
         }
