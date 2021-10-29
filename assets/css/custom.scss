@@ -47,11 +47,20 @@ footer {
     padding-right: 50px;
     padding-top: 40px;
     @media (max-width: $breakpoint-small) {
-        position: absolut;
+        position: absolute;
         margin-top: -60px;
         padding-left: 0;
         padding-right: 0;
         padding-top: 0;
+        .z43-logo-white {
+            display: none;
+        }
+        .z43-logo-black {
+            display: initial;
+        }
+        .uk-navbar-toggle {
+            color: #000;
+        }
     }
 
     .z43-logo {
@@ -61,14 +70,8 @@ footer {
         }
     }
     .z43-logo-co2 {
-        padding-left: 10px;
-        padding-top: 20px;
+        padding: 10px;
         width: 60px;
-        @media (max-width: $breakpoint-small) {                
-            padding-top: 30px;
-            width: 12vw;
-            padding-left: 3vw;
-        }
     }
     .z43-logo-black {
         display: none;
