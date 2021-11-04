@@ -1,7 +1,5 @@
 # images go into assets/img/heroes
 - image: slide01_AR_2015_cover.jpg
-  color: '#ffffff'
-  bg-color: '#000000'
   title: "IT’IS focuses on multi-scale simulation methods to optimize individual diagnostic"
 - image: slide02_AR_2019_cover.jpg
   title: "IT’IS provides customized research solutions to academia and governments"
