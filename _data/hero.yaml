@@ -9,7 +9,7 @@
   bg-color: rgba(0, 204, 255, 0.3)
 - image: slide03_AR_2020_cover.jpg
   title: "From engineering to medicine – EM Research, the Virtual Population and IT’IS for Health"
-  color: rgba(255, 255, 255, 0.9)
+  color: rgba(255, 255, 255, 1.0)
   bg-color: rgba(255, 204, 0, 0.4)
 - image: slide04_AR_2017_cover.jpg
   title: "The Virtual Population: best detailed and validated library of computational human anatomical phantoms"
