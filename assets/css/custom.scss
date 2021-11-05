@@ -104,6 +104,17 @@ footer {
     .uk-nav-primary>li>a {
         &.uk-active {
             color: #c10077;
+            &:hover {
+                color: #c10077;
+                border-bottom-color: #c10077;
+            }
+        }
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+        &:hover {
+            color: #444;
+            border-bottom: solid 1px #444;
+            padding-bottom: 5px;
         }
     font-weight: 700;
     font-size: 0.9rem;
@@ -137,6 +148,9 @@ footer {
 }
 
 .z43-news-modal {
+    a {
+        text-decoration: underline;
+    }
     .z43-news-scroller {
         height: 100vh;
         overflow-y: auto;
