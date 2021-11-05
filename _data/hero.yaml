@@ -1,9 +1,17 @@
 # images go into assets/img/heroes
 - image: slide01_AR_2015_cover.jpg
   title: "IT’IS focuses on multi-scale simulation methods to optimize individual diagnostic"
+  color: rgba(0, 0, 0, 0.2)
+  bg-color: rgba(255, 0, 0, 0.2)
 - image: slide02_AR_2019_cover.jpg
   title: "IT’IS provides customized research solutions to academia and governments"
+  color: rgba(0, 0, 0, 0.2)
+  bg-color: rgba(255, 0, 255, 0.2)
 - image: slide03_AR_2020_cover.jpg
   title: "From engineering to medicine – EM Research, the Virtual Population and IT’IS for Health"
+  color: rgba(0, 0, 0, 0.2)
+  bg-color: rgba(255, 204, 0, 0.2)
 - image: slide04_AR_2017_cover.jpg
   title: "The Virtual Population: best detailed and validated library of computational human anatomical phantoms"
+  color: rgba(0, 0, 0, 0.2)
+  bg-color: rgba(255, 0, 255, 255.2)
