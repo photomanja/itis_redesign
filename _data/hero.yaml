@@ -14,4 +14,4 @@
 - image: slide04_AR_2017_cover.jpg
   title: "The Virtual Population: best detailed and validated library of computational human anatomical phantoms"
   color: rgba(255, 255, 255, 0.9)
-  bg-color: rgba(255, 0, 255, 0.3)
+  bg-color: rgba(0, 204, 255, 0.3)
