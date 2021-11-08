@@ -102,7 +102,7 @@ body {
         }
     }
 
-    @media (max-width: $breakpoint-small) {
+    @media (max-width: $breakpoint-medium) {
         position: fixed;
         top: 0;
         padding-left: 0;
